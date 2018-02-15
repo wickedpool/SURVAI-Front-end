@@ -26,12 +26,12 @@
     color: white;
 }
 
-.btn-primary {
+.btn-primary.oklm {
     border: 2px solid #5e00dc;
 	background: none;
 }
 
-.btn-primary:hover {
+.btn-primary.oklm:hover {
     border: 2px solid #5e00dc;
 	background: #5e00dc;
 }
