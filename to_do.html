@@ -61,6 +61,14 @@
 	[data-fakenode] {
 		background-color: gray;
 	}
+	.card.oklm {
+		color: black;
+		text-decoration: none;
+	}
+	.card.oklm:hover {
+		color: black;
+		text-decoration: none;
+	}
 	</style>
 </head>
 
@@ -74,15 +82,15 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="index.html">
-            <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Dashboard</span>
-          </a>
-        </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="to_do.html">
             <i class="fa fa-fw fa-tasks"></i>
             <span class="nav-link-text">To do list</span>
+          </a>
+        </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+          <a class="nav-link" href="index.html">
+            <i class="fa fa-fw fa-dashboard"></i>
+            <span class="nav-link-text">Dashboard</span>
           </a>
         </li>
       </ul>
@@ -193,32 +201,54 @@
 
   <div class="content-wrapper" style="background: url(img/bg-pattern.png), linear-gradient(to left,#6a11cb,#2575fc);">
 	<div class="flex-tasks" style="display:flex;flex-wrap:wrap">
-		<section class="list">
-			<header>To Do</header>
-			<article class="card">
-				<header>Drag and Drop CSS</header>
+		<section class="list" style="display: inline-table;">
+			<header>Thèmes métiers du 22/01/18 au 22/02/18</header>
+			<a href="index.html">
+			<article class="card oklm">
+				<header style="height:10px;width:50px;background-color:#c377e0;border-radius: 20px;"></header>
+				<header>Thème : Propreté</header>
 				<div class="detail">1/2</div>
 			</article>
+			</a>
 			<article class="card">
-				<header>Maybe something else ?</header>
-				<div class="detail">1/2</div>
-			</article>
-		</section>
-		<section class="list">
-			<header>Doing</header>
-			<article class="card">
-				<header>Drag and Drop JS</header>
+				<header style="height:10px;width:50px;background-color:#ffab4a;border-radius: 20px;"></header>
+				<header>Thème : Personnel</header>
 				<div class="detail">1/2</div>
 			</article>
 		</section>
-		<section class="list">
-			<header>Done</header>
+		<section class="list" style="display: inline-table;">
+			<header>Thèmes suggérés automatiquement par l'algo</header>
 			<article class="card">
-				<header>Global HTML</header>
+				<header style="height:10px;width:50px;background-color:#0079bf;border-radius: 20px;"></header>
+				<header>Thème : Caisses</header>
+				<div class="detail">1/2</div>
+			</article>
+		</section>
+		<section class="list" style="display: inline-table;">
+			<header>Actions pointées</header>
+			<article class="card">
+				<header style="height:10px;width:50px;background-color:#c377e0;border-radius: 20px;"></header>
+				<header>Propreté -> Poissonnerie</header>
 				<div class="detail">1/2</div>
 			</article>
 			<article class="card">
-				<header>Global CSS</header>
+				<header style="height:10px;width:50px;background-color:#c377e0;border-radius: 20px;"></header>
+				<header>Propreté -> Sol</header>
+				<div class="detail">1/2</div>
+			</article>
+			<article class="card">
+				<header style="height:10px;width:50px;background-color:#ffab4a;border-radius: 20px;"></header>
+				<header>Personnel -> Indisponible</header>
+				<div class="detail">1/2</div>
+			</article>
+			<article class="card">
+				<header style="height:10px;width:50px;background-color:#ffab4a;border-radius: 20px;"></header>
+				<header>Personnel -> Accueil</header>
+				<div class="detail">1/2</div>
+			</article>
+			<article class="card">
+				<header style="height:10px;width:50px;background-color:#0079bf;border-radius: 20px;"></header>
+				<header>Caisse -> Lent</header>
 				<div class="detail">1/2</div>
 			</article>
 		</section>
